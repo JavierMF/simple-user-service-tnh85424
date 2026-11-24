@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/userservice
+    username: admin
+    password: admin123
+
+  webflux:
+    base-path: /
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.userservice: DEBUG
